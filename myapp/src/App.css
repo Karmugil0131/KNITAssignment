@@ -6,7 +6,7 @@
   align-items: center;
   padding: 30px;
 }
-.greet{
+.greeting{
   color: dodgerblue;
   font-family: "Bree-Serif";
   font-size: 60px;
@@ -24,4 +24,18 @@
 }
 .pass-container{
   margin-bottom: 20px;
+}
+.sign-in-button{
+  color: #ffffff;
+  background-color: rgb(70, 33, 172);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  width: 70px;
+  margin-right: 20px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className='login-page-bg-container'>
-      <h1 className='greet'>Login Page</h1>
+      <h1 className='greeting'>Login Page</h1>
       <form className='login-form-container' id="myForm">
         <div className="username-container">
           <label for="username">Username</label>
@@ -14,6 +14,10 @@ function App() {
           <label for="password">Password</label>
           <input type="passwd" className="form-control" id="password" />
           <p id="passwordErrMsg" className="error-message"></p>
+        </div>
+        <div className='button-container'>
+          <button type='button' className='sign-in-button'>Sign In</button>
+          <a>Sign Up</a>
         </div>
       </form>
     </div>
