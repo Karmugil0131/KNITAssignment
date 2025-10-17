@@ -16,7 +16,7 @@ function App() {
           <p id="passwordErrMsg" className="error-message"></p>
         </div>
         <div className='button-container'>
-          <button type='button' className='sign-in-button'>Sign In</button>
+          <button type='submit' className='sign-in-button'>Sign In</button>
           <a>Sign Up</a>
         </div>
       </form>
